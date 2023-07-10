@@ -1,5 +1,5 @@
 <?php
-namespace Miavaka;
+namespace Miavaka\MenExamResult;
 
 /**
  * @author FANAMBINANTSOA Miavaka Nofidiana<miavakanofidiana@gmail.com>

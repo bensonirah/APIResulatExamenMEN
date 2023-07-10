@@ -1,0 +1,19 @@
+{
+    "name": "miavaka/men-exam-result",
+    "description": "Web scrapping qui permet d'obtenir les résultats de BEPC et CEPE à Madagascar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miavaka\\MenExamResult\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bensonirah",
+            "email": "bensonirah@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

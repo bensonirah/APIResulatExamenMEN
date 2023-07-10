@@ -7,19 +7,22 @@ include 'MENExamResult.class.php';
 ```
 ## Exemple d'utilisation
   ### BEPC
+
 ```php
-Miavaka\MENExamResult::bepc("Miavaka"); //Nom du (de la) candidat(e)
-Miavaka\MENExamResult::bepc("12345678-A12/12"); //N° Matricule
+\Miavaka\src\MENExamResult::bepc("Miavaka"); //Nom du (de la) candidat(e)
+\Miavaka\src\MENExamResult::bepc("12345678-A12/12"); //N° Matricule
 ```
   ### CEPE
+
 ```php
-Miavaka\MENExamResult::cepe("Miavaka"); //Nom du (de la) candidat(e)
-Miavaka\MENExamResult::cepe("12345678-A12/12"); //N° Matricule
+\Miavaka\src\MENExamResult::cepe("Miavaka"); //Nom du (de la) candidat(e)
+\Miavaka\src\MENExamResult::cepe("12345678-A12/12"); //N° Matricule
 ```
   ### Autres
-  D'autres fonctions sont disponibles comme 
+  D'autres fonctions sont disponibles comme
+
   ```php
-Miavaka\MENExamResult::listCisco(Miavaka\MENExamResult::EXAM_BEPC);
+\Miavaka\src\MENExamResult::listCisco(\Miavaka\src\MENExamResult::EXAM_BEPC);
 ```
 N'hésitez pas à regrader le code
 ## Contribution
